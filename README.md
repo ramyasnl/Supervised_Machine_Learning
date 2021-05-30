@@ -26,8 +26,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Resampling Models to Predict Credit Risk </br>
 ### The RandomOverSampler </br>
 In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.</br>
-![Accuracy score]()</br>
-![]()</br>
+![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/randomsampling.png)</br>
 From the above results we know
 
 ### SMOTE algorithms</br>
@@ -35,7 +34,7 @@ From the above results we know
 From the above results we </br>
 
 ### Undersample using ClusterCentroids algorithm </br>
-![]()</br>
+![]((https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/undersampling.png)</br>
 ![]()</br>
 From the above results we </br>
 
