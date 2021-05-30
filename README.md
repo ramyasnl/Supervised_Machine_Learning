@@ -34,13 +34,14 @@ From the above results we know
 From the above results we </br>
 
 ### Undersample using ClusterCentroids algorithm </br>
-![]((https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/undersampling.png)</br>
-![]()</br>
+![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/undersampling.png)</br>
+
 From the above results we </br>
 
 ### Over and undersampling using the SMOTEENN algorithm </br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTEENN_Accu.png)</br>
-![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTEENN_ICR.png)</br>
+
+![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTEENN_%20ICR.png)</br>
 From the above results we </br>
 
 ### BalancedRandomForestClassifier</br>
