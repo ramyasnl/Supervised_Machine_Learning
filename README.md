@@ -19,7 +19,9 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
  * Calculate the accuracy score of the model.
  * Generate a confusion matrix.
  * Print out the imbalanced classification report.
-   We are going to compare the values of "high risk" on "accuracy score" and "imbalanced classification report" on each case .</br>
+   We are going to compare the values of "high risk" on "accuracy score" and "imbalanced classification report" on each case and F1 score.</br> 
+   F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. </br> 
+   Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution.</br>
    
  ![Multidimentional array X](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/muliDX.png)
  ![Target y](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/y-target.png)
@@ -27,29 +29,33 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ### The RandomOverSampler </br>
 In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.</br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/randomsampling.png)</br>
-From the above results we know
+From the above results we know accuracy  as 0.6576123702173772 i.e. 65% and F1 scre for high risk is 0.02
 
 ### SMOTE algorithms</br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTE.png)</br>
-From the above results we </br>
+From the above results we know the accuracy as 0.6600566482045773 and the F1 score is again 0.02</br>
 
 ### Undersample using ClusterCentroids algorithm </br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/undersampling.png)</br>
 
-From the above results we </br>
+From the above results we know accuracy is 0.5453770295177319 and F1 as 0.01 </br>
 
 ### Over and undersampling using the SMOTEENN algorithm </br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTEENN_Accu.png)</br>
 
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/SMOTEENN_%20ICR.png)</br>
-From the above results we </br>
+From the above results we get the accuracy as 0.5453770295177319,F1 score 0.02 </br>
 
 ### BalancedRandomForestClassifier</br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/BRC.png)</br>
 
-From the above results we </br>
+From the above results we get the accuracy as 0.775955077383323, F1 score for high risk as 0.07 </br>
 
 ### EasyEnsembleClassifier</br>
 ![](https://github.com/ramyasnl/Supervised_Machine_Learning/blob/master/SSMOD17/EEAdaC.png)</br>
 ![]()</br>
-From the above results we </br>
+From the above results we know the accuracy is 0.9322840931193213 that is 93% and the average F1  is 96% which is BEST among all other algorithms.</br>
+## Conclusion 
+ Among all the algorithms The EasyensembleClassifier can be the best option because of the accuracy on the other hand the F1 scores are not too good ,</br>
+ Using only the above algoritms may not be a good decision to choose the deserving candidates or to eliminate the high risk candidates. 
+ 
