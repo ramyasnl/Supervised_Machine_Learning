@@ -21,8 +21,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
  * Generate a confusion matrix.
  * Print out the imbalanced classification report.
    We are going to compare the values of "high risk" on "accuracy score" and "imbalanced classification report" on each case .</br>
- INSERT IMAGES OF DF,X,Y ![stack Overflow](http://lmsotfy.com/so.png)
- ![Dataframe]()
+ INSERT IMAGES OF DF,X,Y 
  ![Multidimentional array X]()
  ![Target y]()
 ## Resampling Models to Predict Credit Risk </br>
